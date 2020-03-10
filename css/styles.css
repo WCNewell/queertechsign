@@ -1,5 +1,5 @@
 :root {
-  --color-background: #31037D;
+  --color-background: #fff;
   --axis-x: 1px;
   --axis-y: 1rem;
   --delay: 10;
@@ -12,7 +12,7 @@
   --color-green: #5ACB3C;
   --color-yellow: #DEBF40;
   --color-foreground: var(--color-white);
-  --font-name: Righteous; }
+  --font-name: Monoton; }
 
 html, body {
   font-size: 36px; }
@@ -35,10 +35,10 @@ body {
   .c-rainbow__layer {
     --text-color: var(--color-foreground);
     counter-increment: rainbow;
-    font-size: 10rem;
+    font-size: 8rem;
     color: var(--text-color);
     text-shadow: -1px -1px 0 var(--color-black), 1px -1px 0 var(--color-black), -1px 1px 0 var(--color-black), 1px 1px 0 var(--color-black), 4px 4px 0 rgba(0, 0, 0, 0.2);
-    animation: rainbow 2.5s ease-in-out infinite; }
+    animation: rainbow 3.0s ease-in-out infinite; }
     .c-rainbow__layer:nth-child(1) {
       animation-delay: calc( 1 / var(--delay) * 1s);
       left: calc(var(--axis-x) * 1);

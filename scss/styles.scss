@@ -1,7 +1,7 @@
 $root: '.c-rainbow';
 
 :root {
- --color-background: #31037D;
+ --color-background: #fff;
  
  --axis-x: 1px;
  --axis-y: 1rem;
@@ -17,7 +17,7 @@ $root: '.c-rainbow';
  --color-yellow: #DEBF40;
  
  --color-foreground: var(--color-white);
- --font-name: Righteous;
+ --font-name: Monoton;
 }
 
 html, body {
@@ -49,7 +49,7 @@ body {
  &__layer {
   --text-color: var(--color-foreground);
   counter-increment: rainbow; 
-  font-size: 10rem;
+  font-size: 8rem;
   color: var(--text-color);
 
   text-shadow:
@@ -60,7 +60,7 @@ body {
    
      4px 4px 0 rgba(0, 0, 0, .2);
   
-  animation: rainbow 2.5s ease-in-out infinite;
+  animation: rainbow 3.0s ease-in-out infinite;
   
   @for $i from 1 through 7 {
    &:nth-child(#{$i}) {
