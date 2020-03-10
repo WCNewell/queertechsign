@@ -1,0 +1,15 @@
+{
+  "name": "queertechsign",
+  "version": "1.0.0",
+  "description": "Queer Tech SLC Animated Sign",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "author": "Clark Newell",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
